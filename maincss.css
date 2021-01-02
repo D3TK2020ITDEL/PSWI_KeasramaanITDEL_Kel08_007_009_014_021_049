@@ -1,0 +1,168 @@
+	aside {
+			width: 20%;
+			padding-left :20px;
+			margin: 15px;
+			float :right;
+			font-style: bold; 
+			font-size: 14;
+			background-color: black; 
+		}header{
+			background-color: transparent;
+			font-family : "Trebuchet";
+			}/*nav {
+				background-color: transparent;
+			}nav li {
+				float: left;
+			}nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: black;
+				border: 1px solid gainsboro;
+				color: black;
+			}nav li a{
+				display: inline-block;
+				text-align: center;
+				padding: 14px 15px;
+				text-decoration: none;*/
+		}section {
+			display: block;
+		}body {
+			background-image: url(gambar/BG.jpg); 
+			background-repeat: no-repeat;
+			background-attachment:fixed;
+			background-size: cover;
+			color: white;
+		}footer {
+		  	text-align: center;
+			padding: 3px;
+	  		background-image: url(gambar/wah.jpg);
+			position: ;
+	  		color: black;
+			width: 100%
+
+	  	}.kotak {
+				width: 96%;
+				height:94%;
+				margin-top: 55px;
+				margin: auto;
+				background-color: rgba(0, 0, 0, 0.5);
+				box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 1);
+				color: rgba(255,255,255,0.90);
+		
+				}
+		 * {
+	        box-sizing: border-box;
+	    }
+		}html {
+	  			box-sizing: border-box;
+		}*, *:before, *:after {
+	  			box-sizing: inherit;
+		}.column {
+				float: left;
+	  			width: 30%;
+	  			margin-bottom: 16px;
+	  			padding: 0 8px;
+		}.card {
+	  			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+	  			margin: 8px;
+	  			margin-top: 55px;
+	  			margin-left: 55px;
+	  			background-color: rgba(14, 174, 148, 0.8);
+		}.about-section {
+	 			padding: 50px;
+	  			text-align: center;
+	  			background-color: #474e5d;
+	  			color: white;
+		}.containr {
+	  			padding: 0 16px;
+	  			display: flex;
+	   			flex-wrap: wrap;
+		}.containr::after, .row::after {
+	  			content: "";
+	  			clear: both;
+	  			display: table;
+		}.title {
+	  			color: grey;
+		}
+
+		.button {
+				border: none;
+	  			outline: 0;
+	  			display: inline-block;
+	  			padding: 8px;
+	  			color: white;
+	  			background-color: black;
+	  			text-align: center;
+	  			cursor: pointer;
+	  			width: 100%;
+		}.button:hover {
+	  			background-color: silver;
+		}@media screen and (max-width: 650px) {
+	    
+	    /*nav a {
+	    	float : left; 
+	    	width: 30%;
+	    	margin: 0 0 0 5%;
+	    	padding: 25px 1%;
+	    	margin-bottom: 0;
+	    }
+	    nav li: first-child a {
+	    	margin-left: 0;
+	  	}
+	  	nav li: last-child a {
+	      	margin-right: 0;
+	  	}*/
+	    .kotak {
+	    	width: 100%
+	    }
+	    .column img {
+	        margin-top: 8px;
+	        vertical-align: middle;
+	        width: 100%;
+	        height: 100%;
+	    }
+	    hr{
+	    	height: 10px;
+	    	border: 0;
+	    	box-shadow: 0 10px 10px -10px  inset;
+	    	color: black;
+	    }a{
+	    	width: 100px;
+	    	height: 100px;
+	    		box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 1);
+	    }.tbl{
+	    	border-spacing: 10px;
+	    	border: 1px solid black;
+	    	padding: 5px;
+	}
+	    }td{
+	    	width: 500px;
+	    	height: 50px;
+
+	    }input{
+      width:220px;
+     margin-left:15px;
+    height:35px;
+    margin-top:10px;
+    padding:5px;
+    border-radius:5px;
+    border:2px solid green;
+    }
+    textarea{
+  width:220px;
+  margin-left:15px;
+  height:100px;
+  margin-top:10px;
+  padding:5px;
+  border-radius:5px;
+  border:2px solid green;
+  font-family:helvetica;
+    }
+  fieldset{
+ width:300px;
+ border:2px solid green;
+    }.title{
+    	color: white;
+    }
